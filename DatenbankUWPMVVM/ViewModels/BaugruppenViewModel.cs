@@ -22,8 +22,7 @@ namespace DatenbankUWPMVVM.ViewModels
             Source.Clear();
 
             // Replace this with your actual data
-            //var data = await SqlServerDataService.AlleBaugruppen();
-            var data = await SqlServerDataService<Baugruppen>.allSqlData("BAUGRUPPEN");
+            var data = await SqlServerDataService.AlleBaugruppen();
 
 
             foreach (var item in data)
