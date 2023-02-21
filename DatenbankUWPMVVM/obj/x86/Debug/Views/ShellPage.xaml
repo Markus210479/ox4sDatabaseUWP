@@ -28,21 +28,14 @@
         IsPaneOpen="False"
         Background="{ThemeResource SystemControlBackgroundAltHighBrush}">
         <winui:NavigationView.MenuItems>
-            <!--
-            TODO: Change the symbols for each item as appropriate for your app
-            More on Segoe UI Symbol icons: https://docs.microsoft.com/windows/uwp/style/segoe-ui-symbol-font
-            Or to use an IconElement instead of a Symbol see https://github.com/microsoft/TemplateStudio/blob/main/docs/UWP/projectTypes/navigationpane.md
-            Edit String/en-US/Resources.resw: Add a menu item title for each page
-            -->
             <winui:NavigationViewItem x:Uid="Shell_Bauteile" helpers:NavHelper.NavigateTo="views:BauteilePage">
-                <winui:NavigationViewItem.Icon>
-                    <fa:FontAwesome Icon="Gear"/>
-                </winui:NavigationViewItem.Icon>
+                <winui:NavigationViewItem.Icon><fa:FontAwesome Icon="Gear"/></winui:NavigationViewItem.Icon>
             </winui:NavigationViewItem>
-            <winui:NavigationViewItem x:Uid="Shell_Releases" helpers:NavHelper.NavigateTo="views:ReleasesPage">
-                <winui:NavigationViewItem.Icon>
-                    <fa:FontAwesome Icon="Gears"/>
-                </winui:NavigationViewItem.Icon>
+            <winui:NavigationViewItem x:Uid="Shell_Services" helpers:NavHelper.NavigateTo="views:ServicesPage">
+                <winui:NavigationViewItem.Icon><fa:FontAwesome Icon="Coffee"/></winui:NavigationViewItem.Icon>
+            </winui:NavigationViewItem>
+            <winui:NavigationViewItem x:Uid="Shell_Baugruppen" helpers:NavHelper.NavigateTo="views:BaugruppenPage">
+                <winui:NavigationViewItem.Icon><fa:FontAwesome Icon="Gears"/></winui:NavigationViewItem.Icon>
             </winui:NavigationViewItem>
         </winui:NavigationView.MenuItems>
         <i:Interaction.Behaviors>

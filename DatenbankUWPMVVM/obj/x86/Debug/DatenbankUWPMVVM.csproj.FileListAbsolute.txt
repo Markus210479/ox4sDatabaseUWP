@@ -139,11 +139,6 @@ C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\F
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\FontAwesome.UWP\FontAwesome.otf
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\FontAwesome.UWP.dll
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\FontAwesome.UWP.pri.xml
-C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ReleasesPage.g.i.cs
-C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ReleasesPage.g.cs
-C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ReleasesPage.xaml
-C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ReleasesPage.xbf
-C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\ReleasesPage.xbf
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Microsoft.Web.WebView2.Core.dll
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\WebView2Loader.dll
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Microsoft.Web.WebView2.Core.winmd
@@ -160,3 +155,13 @@ C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\M
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml
 C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.pri.xml
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\BaugruppenPage.xbf
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\BaugruppenPage.g.i.cs
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\BaugruppenPage.g.cs
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\BaugruppenPage.xaml
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\BaugruppenPage.xbf
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\ServicesPage.xbf
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ServicesPage.g.i.cs
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ServicesPage.g.cs
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ServicesPage.xaml
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Views\ServicesPage.xbf

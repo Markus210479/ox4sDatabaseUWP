@@ -133,8 +133,12 @@
     <value>Bauteile</value>
     <comment>Navigation view item name for Bauteile</comment>
   </data>
-  <data name="Shell_Releases.Content" xml:space="preserve">
-    <value>Releases</value>
-    <comment>Navigation view item name for Releases</comment>
+  <data name="Shell_Services.Content" xml:space="preserve">
+    <value>Services</value>
+    <comment>Navigation view item name for Services</comment>
+  </data>
+  <data name="Shell_Baugruppen.Content" xml:space="preserve">
+    <value>Baugruppen</value>
+    <comment>Navigation view item name for Baugruppen</comment>
   </data>
 </root>

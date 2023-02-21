@@ -7,13 +7,13 @@ using Windows.UI.Xaml.Navigation;
 
 namespace DatenbankUWPMVVM.Views
 {
-    public sealed partial class ReleasesPage : Page
+    public sealed partial class ServicesPage : Page
     {
-        public ReleasesViewModel ViewModel { get; } = new ReleasesViewModel();
+        public ServicesViewModel ViewModel { get; } = new ServicesViewModel();
 
         // TODO: Change the grid as appropriate to your app, adjust the column definitions on ReleasesPage.xaml.
         // For more details see the documentation at https://docs.microsoft.com/windows/communitytoolkit/controls/datagrid
-        public ReleasesPage()
+        public ServicesPage()
         {
             InitializeComponent();
         }

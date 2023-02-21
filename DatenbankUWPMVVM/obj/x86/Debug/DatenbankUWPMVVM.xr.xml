@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="LieferantenArtikelNr" />
+    <RootPropertyPathName Name="NP1U" />
+    <RootPropertyPathName Name="NettoStueckPreis_1" />
     <RootPropertyPathName Name="HerstellerArtikelNr" />
     <RootPropertyPathName Name="Kategorie" />
+    <RootPropertyPathName Name="LangName" />
     <RootPropertyPathName Name="KurzName" />
     <RootPropertyPathName Name="PositionsName" />
     <RootPropertyPathName Name="Lieferant_7" />
@@ -14,13 +16,17 @@
     <RootPropertyPathName Name="Lieferant_2" />
     <RootPropertyPathName Name="Lieferant_1" />
     <RootPropertyPathName Name="Hersteller" />
+    <RootPropertyPathName Name="Service_ID" />
     <RootPropertyPathName Name="ID" />
-    <RootPropertyPathName Name="Status" />
-    <RootPropertyPathName Name="OrderTotal" />
-    <RootPropertyPathName Name="ShipTo" />
-    <RootPropertyPathName Name="Company" />
-    <RootPropertyPathName Name="OrderDate" />
-    <RootPropertyPathName Name="OrderID" />
+    <RootPropertyPathName Name="LieferantenArtikelNr" />
+    <RootPropertyPathName Name="VK_20" />
+    <RootPropertyPathName Name="VK_15" />
+    <RootPropertyPathName Name="VK_10" />
+    <RootPropertyPathName Name="EKU" />
+    <RootPropertyPathName Name="Letzte_EK_Kosten" />
+    <RootPropertyPathName Name="Kommentar" />
+    <RootPropertyPathName Name="Bezeichnung" />
+    <RootPropertyPathName Name="BOM_ID" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -82,8 +88,9 @@
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="DatenbankUWPMVVM.Views.ServicesPage" />
     <RootType FullName="DatenbankUWPMVVM.Views.BauteilePage" />
-    <RootType FullName="DatenbankUWPMVVM.Views.ReleasesPage" />
+    <RootType FullName="DatenbankUWPMVVM.Views.BaugruppenPage" />
     <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
       <RootMethod Name="GetBehaviors" />
       <RootMethod Name="SetBehaviors" />

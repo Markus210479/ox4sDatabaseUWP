@@ -34,6 +34,7 @@
                     <controls:DataGridTextColumn Binding="{Binding Lieferant_7}" Header="Lieferant 7" />
                     <controls:DataGridTextColumn Binding="{Binding PositionsName}" CanUserResize="False" Header="Positionsname" Width="300"/>
                     <controls:DataGridTextColumn Binding="{Binding KurzName}" CanUserResize="False" Header="Kurzname" Width="300"/>
+                    <controls:DataGridTextColumn Binding="{Binding LangName}" CanUserResize="False" Header="Kurzname" Width="300"/>
                     <controls:DataGridTextColumn Binding="{Binding Kategorie}" Header="Kategorie" />
                     <controls:DataGridTextColumn Binding="{Binding HerstellerArtikelNr}" Header="Herstellerartikelnr." />
                     <controls:DataGridTextColumn Binding="{Binding LieferantenArtikelNr}" Header="Lieferantenartikelnr." />

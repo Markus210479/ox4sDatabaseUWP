@@ -153,14 +153,18 @@
     <Compile Include="Services\ActivationService.cs" />
     <Compile Include="Activation\DefaultActivationHandler.cs" />
     <Compile Include="Services\NavigationService.cs" />
+    <Compile Include="ViewModels\ServicesViewModel.cs" />
     <Compile Include="ViewModels\BauteileViewModel.cs" />
-    <Compile Include="ViewModels\ReleasesViewModel.cs" />
+    <Compile Include="ViewModels\BaugruppenViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
+    <Compile Include="Views\ServicesPage.xaml.cs">
+      <DependentUpon>ServicesPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\BauteilePage.xaml.cs">
       <DependentUpon>BauteilePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\ReleasesPage.xaml.cs">
-      <DependentUpon>ReleasesPage.xaml</DependentUpon>
+    <Compile Include="Views\BaugruppenPage.xaml.cs">
+      <DependentUpon>BaugruppenPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShellPage.xaml.cs">
       <DependentUpon>ShellPage.xaml</DependentUpon>
@@ -193,11 +197,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ServicesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\BauteilePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\ReleasesPage.xaml">
+    <Page Include="Views\BaugruppenPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

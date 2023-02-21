@@ -13,7 +13,8 @@ Styles\_FontSizes.xbf
 Styles\_Thickness.xbf
 Styles\Page.xbf
 Styles\TextBlock.xbf
+Views\BaugruppenPage.xbf
 Views\BauteilePage.xbf
-Views\ReleasesPage.xbf
+Views\ServicesPage.xbf
 Views\ShellPage.xbf
 Properties\Default.rd.xml
