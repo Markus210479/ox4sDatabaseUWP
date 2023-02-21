@@ -1,0 +1,10 @@
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\bin\Debug\netstandard2.0\DatenbankUWPMVVM.Core.deps.json
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\bin\Debug\netstandard2.0\DatenbankUWPMVVM.Core.dll
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\bin\Debug\netstandard2.0\DatenbankUWPMVVM.Core.pdb
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.csproj.AssemblyReference.cache
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.AssemblyInfoInputs.cache
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.AssemblyInfo.cs
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.csproj.CoreCompileInputs.cache
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.dll
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\obj\Debug\netstandard2.0\DatenbankUWPMVVM.Core.pdb

@@ -1,0 +1,1 @@
+C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\DatenbankUWPMVVM.csproj;arm

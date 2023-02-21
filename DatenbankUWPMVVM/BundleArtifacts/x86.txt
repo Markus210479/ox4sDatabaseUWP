@@ -1,0 +1,2 @@
+MainPackage=C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\DatenbankUWPMVVM_1.0.0.0_x86_Debug.msix
+SymbolPackage=C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\Symbols\DatenbankUWPMVVM_1.0.0.0_x86_Debug.appxsym

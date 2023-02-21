@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-de"
+"ResourceDimensions"		"language-de-de"
+
+[Files]
+"C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\obj\x86\Debug\split.language-de.pri"			"resources.pri"
