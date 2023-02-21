@@ -22,7 +22,9 @@ namespace DatenbankUWPMVVM.ViewModels
             Source.Clear();
 
             // Replace this with your actual data
-            var data = await SqlServerDataService.AlleServices();
+            //var data = await SqlServerDataService.AlleServices();
+            var data = await SqlServerDataService<Service>.allSqlData("SERVICES");
+
 
             foreach (var item in data)
             {
