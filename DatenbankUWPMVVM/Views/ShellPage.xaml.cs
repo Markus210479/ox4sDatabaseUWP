@@ -11,10 +11,11 @@ namespace DatenbankUWPMVVM.Views
     {
         public ShellViewModel ViewModel { get; } = new ShellViewModel();
 
+
         public ShellPage()
         {
             InitializeComponent();
-            DataContext = ViewModel;
+            //DataContext = ViewModel;
             ViewModel.Initialize(shellFrame, navigationView, KeyboardAccelerators);
         }
     }

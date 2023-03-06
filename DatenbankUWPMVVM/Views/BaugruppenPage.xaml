@@ -2,21 +2,34 @@
     x:Class="DatenbankUWPMVVM.Views.BaugruppenPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:control="using:DatenbankUWPMVVM.Controls"
     xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
-    xmlns:primitives="using:Microsoft.Toolkit.Uwp.UI.Controls.Primitives"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:primitives="using:Microsoft.Toolkit.Uwp.UI.Controls.Primitives"
     Style="{StaticResource PageStyle}"
-    xmlns:model="using:DatenbankUWPMVVM.Core.Models"
     mc:Ignorable="d">
     <Page.Resources>
         <ResourceDictionary>
-            <Style BasedOn="{StaticResource DataGridBodyStyle}" TargetType="TextBlock"/>
-            <Style BasedOn="{StaticResource DataGridHeaderStyle}" TargetType="primitives:DataGridColumnHeader"/>
+            <Style BasedOn="{StaticResource DataGridBodyStyle}" TargetType="TextBlock" />
+            <Style BasedOn="{StaticResource DataGridHeaderStyle}" TargetType="primitives:DataGridColumnHeader" />
         </ResourceDictionary>
     </Page.Resources>
     <Grid x:Name="ContentArea" Margin="{StaticResource SmallLeftRightMargin}">
-        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <control:NavControl
+            BackwardButtonCommand="{x:Bind ViewModel.BackwardClick}"
+            BottomButtonCommand="{x:Bind ViewModel.BottomClick}"
+            ComboBoxIndex="{x:Bind ViewModel.DataRowsCollIndex}"
+            ComboBoxItems="{x:Bind ViewModel.DataRowsCollection}"
+            ForwardButtonCommand="{x:Bind ViewModel.ForwardClick}"
+            TopButtonCommand="{x:Bind ViewModel.TopClick}" />
+
+        <Grid Grid.Row="1">
             <controls:DataGrid
                 x:Uid="DataTable"
                 AutoGenerateColumns="False"
@@ -25,8 +38,16 @@
                 <controls:DataGrid.Columns>
                     <controls:DataGridTextColumn Binding="{Binding ID}" Header="ID" />
                     <controls:DataGridTextColumn Binding="{Binding BOM_ID}" Header="BOM ID" />
-                    <controls:DataGridTextColumn Binding="{Binding Bezeichnung}" CanUserResize="False" Width="300" Header="Bezeichnung" />
-                    <controls:DataGridTextColumn Binding="{Binding Kommentar}" CanUserResize="False" Width="300"  Header="Kommentar" />
+                    <controls:DataGridTextColumn
+                        Width="300"
+                        Binding="{Binding Bezeichnung}"
+                        CanUserResize="False"
+                        Header="Bezeichnung" />
+                    <controls:DataGridTextColumn
+                        Width="300"
+                        Binding="{Binding Kommentar}"
+                        CanUserResize="False"
+                        Header="Kommentar" />
                     <controls:DataGridTextColumn Binding="{Binding Letzte_EK_Kosten}" Header="(letzte) EK Kosten" />
                     <controls:DataGridTextColumn Binding="{Binding EKU}" Header="EKU" />
                     <controls:DataGridTextColumn Binding="{Binding VK_10}" Header="VK 10" />

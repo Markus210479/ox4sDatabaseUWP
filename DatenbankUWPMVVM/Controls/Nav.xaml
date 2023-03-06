@@ -1,0 +1,44 @@
+﻿<UserControl
+    x:Class="DatenbankUWPMVVM.Controls.NavControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DatenbankUWPMVVM"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:fa="using:FontAwesome.UWP"
+    xmlns:control="using:DatenbankUWPMVVM.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    d:DataContext="{d:DesignInstance control:NavControl, IsDesignTimeCreatable=True}">
+
+    <Grid>
+        
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Command="{x:Bind ForwardButtonCommand}">
+                    <fa:FontAwesome Icon="ArrowCircleOutlineUp"/>
+                </Button>
+                <Button Command="{x:Bind BackwardButtonCommand}">
+                    <fa:FontAwesome Icon="ArrowCircleOutlineDown"/>
+                </Button>
+                <ComboBox
+                ItemsSource="{x:Bind ComboBoxItems}"
+                SelectedIndex="{x:Bind ComboBoxIndex,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                VerticalAlignment="Center"
+                Width="100">
+                </ComboBox>
+                <Button Command="{x:Bind TopButtonCommand}">
+                    <fa:FontAwesome Icon="ArrowCircleUp"/>
+                </Button>
+                <Button Command="{x:Bind BottomButtonCommand}">
+                    <fa:FontAwesome Icon="ArrowCircleDown"/>
+                </Button>
+            </StackPanel>
+            <TextBox Grid.Column="2" Text="SearchText" HorizontalAlignment="Stretch"/>
+        
+    </Grid>
+</UserControl>

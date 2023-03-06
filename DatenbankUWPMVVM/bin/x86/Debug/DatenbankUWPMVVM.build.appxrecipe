@@ -232,6 +232,9 @@
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Controls\NavControl.xbf">
+      <PackagePath>Controls\NavControl.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
     </AppxPackagedFile>

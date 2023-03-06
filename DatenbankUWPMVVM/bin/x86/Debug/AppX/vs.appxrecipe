@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-21T15:01:24.439</Modified>
+      <Modified>2023-03-06T19:23:38.743</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\DatenbankUWPMVVM.exe">
       <PackagePath>entrypoint\DatenbankUWPMVVM.exe</PackagePath>
-      <Modified>2023-02-21T15:01:22.925</Modified>
+      <Modified>2023-03-06T19:23:37.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\DatenbankUWPMVVM.exe.config">
       <PackagePath>DatenbankUWPMVVM.exe.config</PackagePath>
@@ -244,7 +244,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM.Core\bin\Debug\netstandard2.0\DatenbankUWPMVVM.Core.dll">
       <PackagePath>DatenbankUWPMVVM.Core.dll</PackagePath>
-      <Modified>2023-02-21T15:01:15.159</Modified>
+      <Modified>2023-02-27T17:00:41.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -302,47 +302,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\DatenbankUWPMVVM.xr.xml">
       <PackagePath>DatenbankUWPMVVM.xr.xml</PackagePath>
-      <Modified>2023-02-21T13:03:04.466</Modified>
+      <Modified>2023-03-06T19:10:42.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.745</Modified>
+      <Modified>2023-03-06T19:23:36.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Controls\NavControl.xbf">
+      <PackagePath>Controls\NavControl.xbf</PackagePath>
+      <Modified>2023-03-06T19:23:36.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.745</Modified>
+      <Modified>2023-03-06T19:23:36.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Styles\_Colors.xbf">
       <PackagePath>Styles\_Colors.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.745</Modified>
+      <Modified>2023-03-06T19:23:36.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.745</Modified>
+      <Modified>2023-03-06T19:23:36.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.745</Modified>
+      <Modified>2023-03-06T19:23:36.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.745</Modified>
+      <Modified>2023-03-06T19:23:36.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\ServicesPage.xbf">
       <PackagePath>Views\ServicesPage.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.746</Modified>
+      <Modified>2023-03-06T19:23:36.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\BauteilePage.xbf">
       <PackagePath>Views\BauteilePage.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.746</Modified>
+      <Modified>2023-03-06T19:23:36.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\BaugruppenPage.xbf">
       <PackagePath>Views\BaugruppenPage.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.746</Modified>
+      <Modified>2023-03-06T19:23:36.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2023-02-21T15:01:22.746</Modified>
+      <Modified>2023-03-06T19:23:36.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22000.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -358,11 +362,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-21T13:17:15.484</Modified>
+      <Modified>2023-03-01T08:05:57.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m.latzel\source\repos\DatenbankUWPMVVM\DatenbankUWPMVVM\bin\x86\Debug\Core\DatenbankUWPMVVM.exe">
       <PackagePath>DatenbankUWPMVVM.exe</PackagePath>
-      <Modified>2023-02-21T15:01:24.436</Modified>
+      <Modified>2023-03-06T19:23:38.740</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

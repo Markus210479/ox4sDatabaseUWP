@@ -16,6 +16,7 @@ namespace DatenbankUWPMVVM.Views
         public BaugruppenPage()
         {
             InitializeComponent();
+            this.DataContext = ViewModel;
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
